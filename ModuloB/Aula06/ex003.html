@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercicio 003</title>
+        <style>
+            body{
+                background-color: rgb(92, 192, 162);
+                color: white;
+                font: normal 15pt Arial;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Apredendo sobre números...</h1>
+        <h2>Soma realizada com sucesso!</h2>
+        <!-- Final do Body -->
+        <script>
+            //window.prompt recebe string
+            /*
+            Para converter variáveis:
+                - Number.parseInt(n);
+                - Number.parseFloat(n);
+
+            Formado resumido:
+                - String(n);
+                - Number(n);
+            */
+            var n1 = Number.parseFloat(prompt('Digite um número:'));
+            var n2 = Number.parseFloat(prompt('Digite outro número:'));
+            var n3 = Number(prompt('Digite um número:'));//Versão simplificada
+            var soma = n1 + n2 + n3;
+            window.alert(`A soma entre ${n1}, ${n2} e ${n3} resultou em: ${soma}!`);
+            /*
+            window.alert("A soma é igual a: ",+soma+"!");
+            window.alert(`A soma é igual a: ${soma}!`);
+
+            + adição (number + number)
+            + concatenação (string + string)
+
+            soma.length ---- Quantos caracteres tem a string)
+            soma.toUpperCase(...) ---- Tudo para maiúscula
+            soma.toLowerCase(...) ---- Tudo para minúscula
+            */
+            
+        </script>
+    </body>
+</html>

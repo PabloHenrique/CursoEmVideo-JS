@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-bre">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Exercicio 001</title>
+        <title>Exercicio 004</title>
         <style>
             body{
                 background-color: rgb(92, 192, 162);
@@ -14,13 +14,12 @@
         </style>
     </head>
     <body>
-        <h1>Olá, Mundo!</h1>
-        <h2>Tradição feita com sucesso!</h2>
-        <!-- Final do Body -->
+        <h1>Aprendendo sobre length...</h1>
         <script>
-            window.alert('Bem vindo, essa é a minha primeira mensagem!');//Mensagem no navegador
-            window.confirm('Está gostando de JS?');//Caixa de pergunta
-            window.prompt('Qual o seu nome?');//Prompt para receber informação
+            var nome = window.prompt("Qual o seu nome?");
+            document.write(`<h3>Olá, ${nome}!<br>Seu nome tem ${nome.length} letras!</h3>`);
+            //Para converter em Real um Number
+            //var.toLocateString('pt-BR', {style: 'currency', currency: 'BRL'});
         </script>
     </body>
 </html>

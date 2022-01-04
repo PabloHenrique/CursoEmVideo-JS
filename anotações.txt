@@ -1,29 +1,78 @@
---------- 03 01 2022 ---------
+--------- 2022 01 04 ---------
 
-JavaScript -- ClientSide (Para o cliente)
+MÓDULO A
+    JavaScript -- ClientSide (Para o cliente)
 
-Geralmente um site é formado por três tecnologias
-    - HTML (textos, imagens, conteúdo em geral)
-    - CSS (parte gráfica, mídias e design)
-    - JS (entrega do produto, configurações e interações)
+    Geralmente um site é formado por três tecnologias
+        - HTML (textos, imagens, conteúdo em geral)
+        - CSS (parte gráfica, mídias e design)
+        - JS (entrega do produto, configurações e interações)
 
-Empresas que utilizam JS
-    Google / Youtube / Netflix e outras!
+    Empresas que utilizam JS
+        Google / Youtube / Netflix e outras!
 
-ECMAScript?
-    É a linguagem padrão de JavaScript
-    ECMA = Empresa de padronizaçãorder
+    ECMAScript?
+        É a linguagem padrão de JavaScript
+        ECMA = Empresa de padronizaçãorder
 
-    NetScape X MicroSoft
-    NetScape == Fundação Mozila(Criadora do JavaScript)
-    Node.js = Saida do JavaScript do navegador
+        NetScape X MicroSoft
+        NetScape == Fundação Mozila(Criadora do JavaScript)
+        Node.js = Saida do JavaScript do navegador
 
-    ECMAScript está atualmente na versão
-    ES6 ------ ES2021
-    //Estudar Vue//
+        ECMAScript está atualmente na versão
+        ES6 ------ ES2021
+        //Estudar Vue//
 
-Softwares
-    Navegador
-    Editor de Texto
-    Node.JS
---------- X ---------
+    Softwares
+        Navegador
+        Editor de Texto
+        Node.JS
+
+MÓDULO B
+    Comentários
+        Para utilizar comentários em JS utiliza-se:
+        //Comentário em uma única linha
+        ou
+        /*
+            Comentário em várias linhas
+            Tudo escrito aqui está sendo comentado
+        */
+
+    Variáveis
+        Guardar DADOS
+            = Recebe
+            vazio = null
+
+            var recebe item (var = 1)
+            var perde item (var = null)
+            
+            Para nomerar um identificador (nome da var)
+                - começar com letras
+                - não usar símbolos e acentos (É possível, mas evitar)
+                - não podem ser palavras reservadas
+                - não podem conter espaços
+                - caixa alta faz diferença!
+        
+        Tipos de Dados
+            - String = Char [ExemploString]
+            - Number = Números [23], [-31], [0,15]
+                - infinity
+                - NaN
+            - Boolean = Valores [true], [false]
+            - null
+            - Undefined
+            - Object
+                - Array
+            - Function
+
+        Exemplos no Node.Js
+            var n1 = 5
+            var n2 = 3
+            n1 + n2
+            8
+
+            var n = 2
+            typeof n
+            number
+
+--------- 2022 01 04 ---------

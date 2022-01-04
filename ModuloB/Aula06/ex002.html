@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Exercicio 001</title>
+        <title>Exercicio 002</title>
         <style>
             body{
                 background-color: rgb(92, 192, 162);
@@ -14,13 +14,18 @@
         </style>
     </head>
     <body>
-        <h1>Olá, Mundo!</h1>
-        <h2>Tradição feita com sucesso!</h2>
+        <h1>Armazenando Dados...</h1>
+        <h2>Dado obtido com sucesso!</h2>
         <!-- Final do Body -->
         <script>
-            window.alert('Bem vindo, essa é a minha primeira mensagem!');//Mensagem no navegador
-            window.confirm('Está gostando de JS?');//Caixa de pergunta
-            window.prompt('Qual o seu nome?');//Prompt para receber informação
+            var nome = window.prompt('Qual o seu nome?');
+            window.alert("Olá, "+nome+"!");
+            /*
+            Prompt para receber informação
+            Variável recebe o nome digitado
+
+            Mostra uma mensagem, chamando o nome do usuário.
+            */
         </script>
     </body>
 </html>
