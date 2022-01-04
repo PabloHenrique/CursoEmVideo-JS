@@ -76,3 +76,127 @@ MÓDULO B
             number
 
 --------- 2022 01 04 ---------
+
+MÓDULO B CONT
+
+    Operadores
+        Tipos principais:
+        
+        - Aritméticos
+
+            Estes são:
+                + ➡ Soma
+                - ➡ Subtração
+                * ➡ Multiplicação
+                / ➡ Divisão Real
+                % ➡ Divisão Inteira (Resto)
+                ** ➡ Potência (Elevado)
+                
+        - Atribuição
+            Os operadores de Atribuição servem para atribuir um valor para algo
+            = ➡ Recebe
+            += ➡ Recebe ele mesmo acrescentando um valor
+            -= ➡ Recebe ele mesmo Subtraindo um valor
+            O mesmo acontece com os outros operadores (%= , /= etc.)
+            
+            Exemplos:
+                var N = 3 (Atribuição Simples)
+                n = n + 4 (Auto-Atribuição)
+                n == 7
+
+                n -= 2 (Simplificando)
+                n == 5
+
+            Podemos também simplificar (x += 1) para:
+                x++
+            O mesmo acontece com o (x -= 1)
+                x--
+            Estes são os operadores de incrementos!
+
+        - Relacionais
+
+            Estes são:
+                > ➡ Maior
+                < ➡ Menor
+                >= ➡ Maior igual
+                <= ➡ Menor igual
+                == ➡ Equivalente / igual
+                != ➡ Diferente
+                === ➡ Igual em valor e em tipo
+                !== ➡ Diferente em valor e em tipo
+
+                Resultados dos operadores relacionais, serão sempre de valores Booleanos, isto é, verdadeiro ou falso.
+
+                Exemplos:
+                    5 > 2 true
+                    7 < 4 false
+                    8 >= 8 true
+                    9 <= 7 false
+                    5 == 5 true
+                    4 != 4 false
+
+                    5 === '5' false
+                    5 !== '5' true
+
+                Exemplos no node:
+                    var n1 = 8
+                    var n2 = 15
+
+                    n1 < n2
+                    true
+
+                    n1 > n2
+                    false
+
+                    n1 == n2 - 7
+                    true
+
+        - Lógicos
+
+            Estes são:
+                ! ➡ negação
+                && ➡ conjunção (and)
+                || ➡ disjunção (or)
+
+                Exemplos:
+                !true = false
+                !false = true
+
+                true && true = true
+                true && false = false
+                false && true = false
+                false && false = false
+
+                true || true = true
+                true || false = true
+                false || true = true
+                false || false = false
+
+        - Ternário
+            
+            Estes são:
+                ?: ➡ utiliza de três operadores para fazer estabelecer uma condição.
+
+                | lógico | ? | ordemTrue | : | ordemFalse |
+
+                Exemplos:
+                teste? true:false
+                média >= 7? "Aprovado":"Reprovado"
+
+                Exemplos no node:
+                var x = 10
+                var num = x == 10? "5":"10"
+                //Se x for == 10, var num recebe 5
+                num = 5
+
+                var idade = 17
+                var passe = idade>=18? "EntradaLiberada":"NãoPermitida"
+        
+        Ordem de precedência:
+        1. Op. Aritméticos *
+        2. Op. Relacionais >=
+        3. Negação !
+        4. Conjunção &&
+        5. Disjunção ||
+
+--------- 2022 01 05 ---------
