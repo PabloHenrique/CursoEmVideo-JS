@@ -1,0 +1,29 @@
+--------- 03 01 2022 ---------
+
+JavaScript -- ClientSide (Para o cliente)
+
+Geralmente um site é formado por três tecnologias
+    - HTML (textos, imagens, conteúdo em geral)
+    - CSS (parte gráfica, mídias e design)
+    - JS (entrega do produto, configurações e interações)
+
+Empresas que utilizam JS
+    Google / Youtube / Netflix e outras!
+
+ECMAScript?
+    É a linguagem padrão de JavaScript
+    ECMA = Empresa de padronizaçãorder
+
+    NetScape X MicroSoft
+    NetScape == Fundação Mozila(Criadora do JavaScript)
+    Node.js = Saida do JavaScript do navegador
+
+    ECMAScript está atualmente na versão
+    ES6 ------ ES2021
+    //Estudar Vue//
+
+Softwares
+    Navegador
+    Editor de Texto
+    Node.JS
+--------- X ---------
