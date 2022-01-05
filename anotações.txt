@@ -199,4 +199,49 @@ MÓDULO B CONT
         4. Conjunção &&
         5. Disjunção ||
 
+MÓDULO C
+    Árvore DOM
+        Entendendo o funcionamento do DOM.
+            - Window - Janela do Navegador
+                - Location
+                - Document
+                    - HTML
+                        - Head
+                            - Meta
+                            - Title
+                        - Body
+                            - h1
+                            - p
+                                - strong
+                            - div
+                - History
+
+            Conceito de parent e child
+            Exemplo:
+                Nesse caso, o HTML é parent de Body.
+                Porém, ele é child de Document.
+            
+            Podemos acessar os elementos DOM atráves de:
+                Marca
+                    getElementsByTagName()
+                    Exemplo: Body, Head
+
+                ID
+                    getElementsByID()
+                    Exemplo: campoNome
+
+                Nome
+                    getElementsByName()
+                    Exemplo: <div name="xxx"></div>
+
+                Classe
+                    getElementsByClassName()
+                    Exemplo: <div class="xxx"></div>
+
+                Seletor
+                    querySelector()
+                    querySelectorAll()
+    Eventos DOM
+        
+
 --------- 2022 01 05 ---------

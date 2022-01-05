@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercicio 007</title>
+        <style>
+            body{
+                background-color: rgb(92, 192, 162);
+                color: white;
+                font: normal 13pt Arial;
+            }
+            input{
+                font: normal 13pt Arial;
+                width: 200px;
+                margin-bottom: 2%;
+            }
+            input.oper{
+                width: 106px;
+            }
+        </style>
+    </head>
+    <body>
+        <br><h2>Trabalhando com valores...</h2>
+        <div class="formSoma">
+            <input type="number" id="num1" name="num1"> + 
+            <input type="number" id="num2" name="num2">
+        </div>
+        <div class="formOperacao">
+            <input class="oper" type="button" value="somar" onclick="somar()">
+            <input class="oper" type="button" value="subtrair" onclick="sub()">
+            <input class="oper" type="button" value="multiplicar" onclick="mult()">
+            <input class="oper" type="button" value="dividir" onclick="div()">
+        </div>
+        <div id="res">Resultado</div>
+        <script>
+            var num1 = window.document.getElementById('num1')
+            var num2 = window.document.getElementById('num2')
+            
+            function somar(){
+                var n1 = Number(num1.value)
+                var n2 = Number(num2.value)
+                var rSoma = n1 + n2
+                var res = window.document.getElementById('res')
+                res.innerHTML = `A soma entre <strong>${n1}</strong> e <strong>${n2}</strong> resultou em: <strong>${rSoma}</strong>`
+            }
+
+            function sub(){
+                var n1 = Number(num1.value)
+                var n2 = Number(num2.value)
+                var rSub = n1 - n2
+                var res = window.document.getElementById('res')
+                res.innerHTML = `A subtração entre <strong>${n1}</strong> e <strong>${n2}</strong> resultou em: <strong>${rSub}</strong>`
+            }
+
+            function mult(){
+                var n1 = Number(num1.value)
+                var n2 = Number(num2.value)
+                var rMult = n1 * n2
+                var res = window.document.getElementById('res')
+                res.innerHTML = `A multiplicação entre <strong>${n1}</strong> e <strong>${n2}</strong> resultou em: <strong>${rMult}</strong>`
+            }
+
+            function div(){
+                var n1 = Number(num1.value)
+                var n2 = Number(num2.value)
+                var rDiv = n1 / n2
+                var res = window.document.getElementById('res')
+                res.innerHTML = `A divisão entre <strong>${n1}</strong> e <strong>${n2}</strong> resultou em: <strong>${rDiv}</strong>`
+            }
+        </script>
+    </body>
+</html>

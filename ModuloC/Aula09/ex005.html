@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercicio 005</title>
+        <style>
+            body{
+                background-color: rgb(92, 192, 162);
+                color: white;
+                font: normal 13pt Arial;
+            }
+            strong{
+                font-style: oblique;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Primeiros passos com o DOM...</h1><!--Document Object Model-->
+        <p>Resultado: Ok!</p>
+        <p>Teste de parágrafo...</p>
+        <p>Utilizando <strong>DOM</strong> em JS</p>
+        <div>Eu sou uma div, clique em mim!</div>
+        <div id="msg" name="nMsg">Clique em mim!</div>
+        <br>
+        <script>
+            /*
+            Exemplo de uso do DOM -- Navegando entre os elementos
+            window.document.write(window.document.URL)
+            
+            Podemos acessar os elementos atráves de Marca, ID, Nome, Classe e por Seletor.
+            [N] - Número da tag (obs: Inicio em 0)
+            p1.innerHTML - texto dentro da tag
+            */
+
+            var p1 = window.document.getElementsByTagName('p')[1];
+            document.write(p1.innerHTML);
+            p1.style.color = "pink"
+
+            var msg = window.document.getElementById('msg');
+            msg.style.color = 'pink';
+            //window.document.getElementById('msg').innerText = 'Estou aguardando zzz'
+            msg.innerText = 'Estou aguardando zzz';
+
+            var msgQuery = window.document.querySelector("div#msg");
+            msgQuery.style.color = "red";
+
+        </script>
+    </body>
+</html>
