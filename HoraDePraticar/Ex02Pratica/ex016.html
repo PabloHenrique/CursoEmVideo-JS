@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="../Ex02Pratica/style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div>
+            <p>Ano de Nascimento:
+                <input type="number" id="txtAno">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radioSexo" id="masc">
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radioSexo" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            Preencha os dados acima para verificar as idades!
+        </div>
+    </section>
+    <footer>
+        <p>&copy; PabloHenrique - CursoEmVideo</p>
+    </footer>
+    <script src="../Ex02Pratica/script.js"></script>
+</body>
+</html>

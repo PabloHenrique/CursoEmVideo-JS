@@ -244,4 +244,63 @@ MÓDULO C
     Eventos DOM
         
 
---------- 2022 01 05 ---------
+--------- 2022 01 10 ---------
+MÓDULO D
+    Lembrando das sequências:
+        
+        1. var n = 3
+        2. n += 2 (n = n + 2)
+        3. Window.alert(n)
+
+        n = 5
+
+    Condições (if)
+        
+        Desvio condicional 
+        1.
+        2.
+        3. ou 4.
+        5.
+
+        Condições simples:
+            if(condição){
+                --true
+            }
+        
+        Condições compostas:
+            if(condição){
+                --true
+            }
+            else{
+                --false
+            }
+
+        Condições aninhadas:
+            if(condição1){
+                --true
+            }
+            else{
+                if(condição2){
+
+                }
+                else{
+
+                }
+            }
+        
+        Condições múltiplas
+            switch(expressão){
+                case 1 valor1:
+                    break (Colocar break entre os casos!)
+                case 2 valor2:
+                    break
+                case 3 valor3:
+                    break
+                case n valorn:
+                    break
+                default:
+                    break
+            }
+    
+    Banco de img
+    https://www.pexels.com/pt-br/

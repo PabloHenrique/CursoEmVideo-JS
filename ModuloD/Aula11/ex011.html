@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            body{
+                background-color: rgb(92, 192, 162);
+                color: white;
+                font: normal 13pt Arial;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Continuação_ Condições...</h2>
+        <h3>Sistema de nacionalidades</h3>
+        País atual: <input type="text" name="txtpais" id="txtpais">
+        <input type="button" value="Analisar" onclick="Analisar()">
+        <div id="res">
+
+        </div>
+        <script>
+            function Analisar(){
+                var txtpais = document.getElementById('txtpais')
+                var pais = String(txtpais.value)
+                
+                res.innerHTML = `<p>Vivendo em: <strong>${pais}</strong></p>`
+                if(pais == 'Brasil'){
+                    res.innerHTML += `<p>Brasileiro!</p>`
+                }
+                else{
+                    res.innerHTML += `<p>Estrangeiro!</p>`
+                }
+            }
+        </script>
+    </body>
+</html>
