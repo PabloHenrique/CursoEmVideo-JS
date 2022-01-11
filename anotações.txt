@@ -304,3 +304,34 @@ MÓDULO D
     
     Banco de img
     https://www.pexels.com/pt-br/
+
+MÓDULO E
+    Repetições
+        Estruturas de controle:
+        -Sequências (Anteriormente visto)
+        1. 2. 3. 4.
+        -Condições (Anteriormente visto)
+        1. 2. (3 ou 4) 5.
+        -Laços
+        1. (2. 2. 2. 2.) 3.
+
+            While (enquanto)
+                Verifica uma informação e enquanto 'true' o programa continua no Laço
+                
+                while(condição){
+                    -- true
+                }
+            
+            Do (Faça)
+                Faça algo enquanto a condição ser 'true'
+                
+                do{
+
+                }while(condição)
+                
+            For (até == para)
+                Verifica a informação com uma variável de controle
+
+                for(inicio;teste;incremento){
+                    --true
+                }

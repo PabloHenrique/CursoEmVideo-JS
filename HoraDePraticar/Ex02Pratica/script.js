@@ -26,6 +26,7 @@ function verificar(){
 
         var radius = document.querySelectorAll("input[type='radio']")
         var genr = ''
+        //Criar a tag 'img' no HTML
         var img = document.createElement('img')
         img.setAttribute('id', 'foto')
 
