@@ -335,3 +335,54 @@ MÓDULO E
                 for(inicio;teste;incremento){
                     --true
                 }
+
+--------- 2022 01 11 ---------
+MÓDULO F
+    Variáveis compostas
+    var x = Cria uma variável definida em "bloco"
+    let x = Cria uma variável global
+
+
+        Array - Vetor:
+            Conseguem armazenar vários valores em uma mesma estrutura.
+            Para declarar: var x = [n,n1,n3]
+
+            Obs: O ínidice sempre começa com 0
+            .. 0 , 1, 2, 3 ...
+
+            Comandos importantes de array:
+                - num[n] = 3
+                    Criar uma posição no vetor
+
+                - num.push(n)
+                    Criar um vetor independentemente da posição
+
+                - num.length
+                    Ver quantas posições
+
+                - num.sort()
+                    Colocar os elementos em ordem crescente
+
+                - var.length(n)
+                    Busca a posição de um elemento no vetor
+                    Obs: Se retornar (-1), o valor não foi encontrado
+
+--------- 2022 01 12 ---------
+MÓDULO F CONT
+    Funções
+        São ações que são chamadas ou em decorrência de um evento. n
+        As funções são formadas de:
+            - Uma chamada
+            - Um parâmetro
+            - Uma ação
+            - Um retorno
+        
+        Criação da função 
+        function ação(param){
+            retorn res
+        }
+
+        Criação da chamada:
+        ação(5)
+
+--------- FIM DO CURSO BÁSICO DE JS ---------
