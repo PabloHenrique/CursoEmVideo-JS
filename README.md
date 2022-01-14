@@ -32,6 +32,10 @@ Fique a vontade para ver e analisar todo o conteúdo!😉
             <ul>
                 <li>O usuário informa um número desejado para a tabuada. O programa identifica e realiza o calcúlo.</li>
             </ul><br>
+        <li>Analisador de Números:</li>
+            <ul>
+                <li>Recebe dos usuários quantos números forem desejados. Armaneza as informações no programa em forma de vetores. Quando o usuário quiser, ele pode finalizar o programa obtendo resultados como média, soma, o maior, o menor e o total de números.</li>
+            </ul><br>
     <ul>
 </div>
 
